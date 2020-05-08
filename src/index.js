@@ -2,14 +2,14 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./style/index.css";
 
-const Square = (props) => {
-  return (  
+function Square(props) {
+  return (
     <button 
-        className="square"
-        onClick = { props.onClick }
-      >
-        { props.value }
-      </button>
+      className="square" 
+      onClick={props.onClick}
+    >
+      {props.value}
+    </button>
   );
 }
  
