@@ -14,7 +14,8 @@ body {
   }
   
   .status {
-    margin-bottom: 10px;
+    margin-bottom: 20%;
+    margin: 30%
   }
   
   .square {
@@ -49,3 +50,7 @@ body {
     margin-left: 20px;
   }
   
+  .game-board{
+    margin: 0 auto;
+    text-align: center;
+  }

@@ -55,7 +55,7 @@ class Board extends React.Component {
     }
 
     return(
-      <div>
+      <div className="board">
         <div className="status">{status}</div>
         <div className="board-row">
           {this.renderSquare(0)}
@@ -82,6 +82,8 @@ class Game extends React.Component {
     return (
       <div className="game">
         <div className="game-board">
+        <h1>Tic-Tac-Toc</h1>
+        <h2>Game</h2>
           <Board />
         </div>
         <div className="game-info">
