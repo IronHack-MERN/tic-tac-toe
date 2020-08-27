@@ -8,7 +8,7 @@ Is an adaptation of paper-and-pencil game for two players, X and O, who take tur
 - Node.js
 - Html
 - Css
-- Surge.sh
+- [Surge.sh](https://surge.sh/)
 
 ## Git
 The url to repository and deployed project:
